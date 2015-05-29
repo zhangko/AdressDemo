@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zhangkong.adressdemo" >
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="九安通讯录"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="九安通讯录"
+            android:icon="@drawable/logo"
+            android:logo="@drawable/logo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShowActivity"></activity>
+        <activity android:name=".Database"></activity>
+        <activity android:name=".ADDActivity"></activity>
+        <activity android:name=".MyListActivity"></activity>
+        <activity android:name=".PeopleActivity"
+            android:label="人员信息"></activity>
+        <activity android:name=".SearchActivity"
+            android:label="人员查询">
+
+        </activity>
+    </application>
+
+</manifest>

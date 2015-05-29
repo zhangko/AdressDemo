@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nocorner"
+        android:id="@+id/searchlayout"
+        android:orientation="horizontal">
+        <SearchView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seachview"
+            android:background="@drawable/cornershape"
+            android:layout_margin="10dp"
+            android:queryHint="姓名、拼音、号码等"
+            android:focusable="true"
+            android:layout_weight="1">
+
+        </SearchView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:text="取消"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchlistview">
+
+        </ListView>
+
+
+
+
+
+
+
+</LinearLayout>
