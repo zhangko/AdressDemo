@@ -1,4 +1,4 @@
-package com.example.zhangkong.adressdemo;
+package com.example.zhangkong.adressdemo.fragment;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -9,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.zhangkong.adressdemo.MainActivity;
+import com.example.zhangkong.adressdemo.R;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;

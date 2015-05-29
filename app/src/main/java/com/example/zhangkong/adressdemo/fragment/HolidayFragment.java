@@ -1,4 +1,4 @@
-package com.example.zhangkong.adressdemo;
+package com.example.zhangkong.adressdemo.fragment;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
+
+import com.example.zhangkong.adressdemo.MainActivity;
+import com.example.zhangkong.adressdemo.R;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;

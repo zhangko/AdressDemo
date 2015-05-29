@@ -15,6 +15,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.zhangkong.adressdemo.Util.HttpsClient;
+import com.example.zhangkong.adressdemo.Util.MD5Util;
+import com.example.zhangkong.adressdemo.Util.MyDBHelper;
+import com.example.zhangkong.adressdemo.Util.Person;
+
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.NameValuePair;
@@ -105,7 +110,7 @@ public class MainActivity extends ActionBarActivity {
                 editor.putString("username",username);
                 editor.putString("password",password);
                 editor.commit();
-                pwd = MD5Util.get32MD5Capital(passwordedit.getText().toString(),MD5Util.UTF_16LE);
+                pwd = MD5Util.get32MD5Capital(passwordedit.getText().toString(), MD5Util.UTF_16LE);
                 Log.v("MSG",pwd);
               //  showDialog(DIALOG1_KEY);
                 dialog.show();

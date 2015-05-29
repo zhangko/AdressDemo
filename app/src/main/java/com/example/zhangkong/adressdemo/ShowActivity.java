@@ -1,39 +1,18 @@
 package com.example.zhangkong.adressdemo;
 
 import android.app.Activity;
-import android.content.ContentValues;
-import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Message;
 import android.util.Log;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ExpandableListView;
-import android.widget.ListView;
-import android.widget.SimpleCursorAdapter;
 import android.widget.SimpleExpandableListAdapter;
 
 
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.NameValuePair;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.util.EntityUtils;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.example.zhangkong.adressdemo.Util.MyDBHelper;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
+import org.apache.http.client.HttpClient;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

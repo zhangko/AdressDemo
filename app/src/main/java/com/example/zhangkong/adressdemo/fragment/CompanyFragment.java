@@ -1,4 +1,4 @@
-package com.example.zhangkong.adressdemo;
+package com.example.zhangkong.adressdemo.fragment;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -11,6 +11,10 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+
+import com.example.zhangkong.adressdemo.Util.MyDBHelper;
+import com.example.zhangkong.adressdemo.MyListActivity;
+import com.example.zhangkong.adressdemo.R;
 
 import java.util.ArrayList;
 import java.util.List;
