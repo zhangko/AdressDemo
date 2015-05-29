@@ -170,9 +170,6 @@ public class MyListActivity extends Activity{
                         }
 
                         adapter.notifyDataSetChanged();
-
-
-
                     }
                 }
                 else{

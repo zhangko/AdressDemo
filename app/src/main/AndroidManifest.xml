@@ -23,8 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShowActivity"></activity>
-        <activity android:name=".Database"></activity>
+
         <activity android:name=".ADDActivity"></activity>
         <activity android:name=".MyListActivity"></activity>
         <activity android:name=".PeopleActivity"
